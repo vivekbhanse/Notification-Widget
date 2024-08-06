@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyWidgetApp</string>
+    <string name="appwidget_text">Widget Text</string>
+    <string name="mainaccount_text">Main Account</string>
+    <string name="default_notification_channel_id">default_channel_id</string>
+</resources>

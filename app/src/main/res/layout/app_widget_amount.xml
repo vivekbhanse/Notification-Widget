@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners_background"
+    android:padding="@dimen/widget_margin">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/icon_flat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/appwidget_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/mainaccount_text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text2"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:contentDescription="@string/appwidget_text"
+        android:text="$13,380.23"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appwidget_text2" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/appwidget_text"-->
+    <!--        android:text="$1234667"-->
+    <!--        android:textSize="25dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <TextView
+        android:id="@+id/txt_lastUpdateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text"
+        android:layout_marginTop="8dp"
+        android:text="Last Updated : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appwidget_text" />
+
+    <TextView
+        android:id="@+id/txt_lastUpdatbyValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text"
+
+        android:layout_alignBottom="@+id/txt_lastUpdateTime"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/txt_lastUpdateTime"
+        android:text="2 Years Ago"
+        android:textColor="#1A68ED"
+        android:textSize="16sp" />
+
+</RelativeLayout>
