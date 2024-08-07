@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
 //    --header 'Content-Type: application/json' \
 //    --header 'Authorization: key=AAAALIE2vz0:APA91bHFjJT-SHfrd1KJOEbanS6Vh1rJ2oNrT85UGYPAm3TdEr674OJnOws8iKdYYJ6pFTYuV5qrPN9BgQFQ9jUXsUGM45rPTg3Z_OsajgRsHKVilvAhEJXRfg_vdYMi-xKfM_OkXyOK' \
 //    --data '{
-//    "to": "ehXtuZ62TYyeBcXlAYn4YB:APA91bGmSUyFPcctALFydSBEpdworsJQJJCWm4XBjEd5_vDoCEg6C5J4qcWUYNMv5F67poFmvjDej4iiDclIpJweWzQ4K-wKNwQLfKTjYZUTf4zJMfThBN4PDlkdTLqc3TUzgKEGGnEa",
+//    "to": "ehXtuZ62TYyeBcXlAYn4YB:APA91bGmSUyFPcctALFydSBEpdworsJQJJCWm4XBjEd5_vDoCEg6C5J4qcWUYNMv5F67poFmvjDej4iiDclIpJweWzQ4K-wKNwQLfKTjYZUTf4zJMfThBN4PDlkdTLqc3TUzgKEGGnEa",    // Add device tocken here
 //    "data": {
 //        "priority": "high",
 //        "sound": "app_sound.wav",
